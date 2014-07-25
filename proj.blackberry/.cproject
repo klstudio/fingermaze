@@ -80,7 +80,6 @@
 								<option id="com.qnx.qcc.option.linker.ldoptions.94618092" name="Linker Options (-Wl,)" superClass="com.qnx.qcc.option.linker.ldoptions" valueType="stringList">
 									<listOptionValue builtIn="false" value="../../../../extensions/proj.blackberry/${ConfigName}/libextensions.a"/>
 									<listOptionValue builtIn="false" value="../../../../external/Box2D/proj.blackberry/${ConfigName}/libBox2D.a"/>
-									<listOptionValue builtIn="false" value="../../../../external/chipmunk/proj.blackberry/${ConfigName}/libchipmunk.a"/>
 									<listOptionValue builtIn="false" value="../../../../cocos2dx/proj.blackberry/${ConfigName}/libcocos2dx.a"/>
 									<listOptionValue builtIn="false" value="../../../../cocos2dx/platform/third_party/blackberry/libraries/${CPUVARDIR}/libtiff.a"/>
 									<listOptionValue builtIn="false" value="../../../../cocos2dx/platform/third_party/blackberry/libraries/${CPUVARDIR}/libwebp.a"/>
@@ -724,4 +723,5 @@
 	</storageModule>
 	<storageModule moduleId="com.qnx.tools.ide.qde.core.QNXProjectProperties"/>
 	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 </cproject>
