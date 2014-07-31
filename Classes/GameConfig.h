@@ -2,6 +2,7 @@
 #define _GAMECONFIG_H_
 
 #include "cocos2d.h"
+using namespace cocos2d;
 
 struct GameConfig : CCObject
 {

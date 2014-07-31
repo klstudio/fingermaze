@@ -12,17 +12,18 @@ class GameWorld : public CCLayerColor
         GameWorld();
         ~GameWorld();
 
-    // Here's a difference. Method 'init' in cocos2d-x returns bool,
-    // instead of returning 'id' in cocos2d-iphone
-	virtual bool init();
+        // Here's a difference. Method 'init' in cocos2d-x returns bool,
+        // instead of returning 'id' in cocos2d-iphone
+        virtual bool init();
 
-    	// there's no 'id' in cpp, so we recommand to return the exactly class pointer
-	static cocos2d::CCScene* scene()
+        // there's no 'id' in cpp, so we recommand to return the exactly class pointer
+        static cocos2d::CCScene* scene();
 
-    // implement the "static node()" method manually
-	CREATE_FUNC(GameWorld);
+        // implement the "static node()" method manually
+        CREATE_FUNC(GameWorld);
 
-    void step(float dt);
+        void step(float dt);
+        void menuCloseCallback( CCObject* pSender);
 
 };
 
